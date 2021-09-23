@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiIllustrator } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
+      I've worked with a range of technologies in the web development world.
       From Back-end To Design
     </SectionText>
     <List>
@@ -38,7 +38,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiIllustrator size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
